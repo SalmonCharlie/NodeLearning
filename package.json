@@ -10,8 +10,8 @@
     "url": "https://github.com/SalmonCharlie/NodeLearning"
   },
   "scripts": {
-#   "start": "make ENV=development assets && mkdir -p ../logs && NODE_ENV=development node .",
-#   "hooks": "chmod +x hooks/*; cd .git/hooks && ln -sf ../../hooks/* .",
+#   "start": "TO DO",
+#   "hooks": "TO DO",
     "build": "make all",
     "eslint": "eslint",
   },
