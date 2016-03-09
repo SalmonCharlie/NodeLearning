@@ -1,0 +1,45 @@
+{
+  "name": "NodeLearning",
+  "private": true,
+  "description": "Learning about isomorphic on Node",
+  "main": "index.js",
+  "version": "0.0.0",
+  "author": "SalmonCharlie",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalmonCharlie/NodeLearning"
+  },
+  "scripts": {
+#   "start": "make ENV=development assets && mkdir -p ../logs && NODE_ENV=development node .",
+#   "hooks": "chmod +x hooks/*; cd .git/hooks && ln -sf ../../hooks/* .",
+    "build": "make all",
+    "eslint": "eslint",
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "classnames": "^2.1.5",
+    "config": "^1.15.0",
+    "cookie-parser": "^1.3.5",
+    "es6-promise": "^2.3.0",
+    "express": "^4.13.3",
+    "express-graphql": "^0.4.2",
+    "graphql": "^0.4.12",
+    "react": "^0.14.7",
+    "react-addons-update": "^0.14.7",
+    "react-document-title": "^1.0.3",
+    "react-dom": "^0.14.7",
+    "react-router": "^0.13.3",
+    "require-dir": "^0.3.0",
+    "useragent": "^2.1.7",
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "eslint-config-airbnb": "^0.1.0",
+    "eslint-plugin-react": "^3.2.2",
+
+    "node-sass": "^3.4.2",
+  }
+}
